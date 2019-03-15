@@ -1,0 +1,22 @@
+{
+  "name": "typescript-interface-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "node test.js",
+    "watch": "tsc -w"
+  },
+  "engines": {
+    "node": "11.10.0"
+  },
+  "dependencies": {
+    "mongoose": "5.4.16"
+  },
+  "devDependencies": {
+    "@types/mongoose": "5.3.20",
+    "@types/node": "11.10.4",
+    "typescript": "3.3.3333"
+  }
+}
